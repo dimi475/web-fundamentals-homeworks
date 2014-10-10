@@ -1,0 +1,162 @@
+/!--Problem 1.	World Cup Brazil
+Create a HTML page like the image below. 100% accuracy is required. Use external CSS file for the styles. 
+Button images and flag images must be linked through the CSS file.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WorldCupBrazil</title>
+	<link rel="stylesheet" type="text/css" href="stylesheetWCB.css">
+</head>
+<body>
+	<div class="twall">
+	<table>
+		<thead>
+			<tr><th>Country</th><th>Result</th><th>Country</th><th>Group</th><th colspan="4">Place a bet</th></tr>
+		</thead>
+		<tbody>
+			<tr class="white-raw">
+				<td class="br">Brasil</td>
+				<td>1-3</td>
+				<td class="me">Mexico</td>
+				<td>A</td>
+				<td>Brasil</td>
+				<td><select name="resultA" disabled="disabled"> 
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option>
+					</select>
+					- <select name="result B" disabled="disabled">
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option></select></td>
+				<td>Mexico</td>
+				<td><input type="button" value="BET" class="red" type="submit"></td>
+			</tr>
+			<tr class="grey-raw">
+				<td class="es">Spain</td>
+				<td>1-5</td>
+				<td class="ne">Netherlands</td>
+				<td>B</td>
+				<td>Spain</td>
+				<td><select name="resultA" disabled="disabled" > 
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option>
+					</select>
+					- <select name="result B"; disabled="disabled";>
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option></select></td>
+				<td>Netherlands</td>
+				<td><input type="button" value="BET" class="red" type="submit"></td>
+			</tr>
+			<tr class="white-raw" >
+				<td class="it">Italy</td>
+				<td>2-1</td>
+				<td class="en">England</td>
+				<td>C</td>
+				<td>Italy</td>
+				<td><select name="resultA"; disabled="disabled";> 
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option>
+					</select>
+					- <select name="result B"; disabled="disabled";>
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option></select></td>
+				<td>England</td>
+				<td><input type="button" value="BET" class="red" type="submit"></td>
+			</tr>
+			<tr class="grey-raw">
+				<td class="ar">Argentina</td>
+				<td>-</td>
+				<td class="bo">Bosnia and Herce</td>
+				<td>F</td>
+				<td>Argentina</td>
+				<td><select name="resultA"> 
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option>
+					</select>
+					- <select name="result B">
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option></select></td>
+				<td>Bosnia and Herce</td>
+				<td><input type="button" value="BET" class="green" type="submit"></td>
+			</tr>
+			<tr class="white-raw">
+				<td class="de">Germany</td>
+				<td>-</td>
+				<td class="po">Portugal</td>
+				<td>E</td>
+				<td>Germany</td>
+				<td><select name="resultA" class="9"> 
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option>
+					</select>
+					- <select name="result B" class="10">
+					<option value="value1">0</option>
+					<option value="value2">1</option>
+					<option value="value3">2</option>
+					<option value="value4">3</option>
+					<option value="value5">4</option>
+					<option value="value6">5</option>
+					<option value="value7">6</option>
+					<option value="value8">7</option></select></td>
+				<td>Portugal</td>
+				<td><input type="button" value="BET" class="green" type="submit"></td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+</body>
+</html>
