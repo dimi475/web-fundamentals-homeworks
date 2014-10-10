@@ -1,0 +1,112 @@
+/*CSS document*/
+
+body {
+	box-sizing: border-box;
+	position:absolute;
+	height:600px;
+	width:600px;
+	margin: -300px 0 0 -300px;
+	left: 50%;
+	top: 50%;
+
+	}
+.kratuna{
+	border:3px solid black;
+	border-radius:50%;
+	width:300px;
+	height:300px;
+	background-color:#ffff00;
+	position:absolute;
+	margin:-150px 0 0 -150px;
+	left: 50%;
+	top: 50%;
+	}
+.lefteye{
+	border: 2px solid black;
+	border-radius:50%;
+	width:60px;
+	height:60px;
+	background-color:#ffffff;
+	position:absolute;
+	margin:-30 0 0 -30;
+	left:19%;
+	top: 21%;
+}
+.leftapple{
+	border-radius:50%;
+	width:17px;
+	height:17px;
+	background-color:#000000;
+	position:absolute;
+	margin:-30 0 0 -30;
+	left:54%;
+	top: 62%;
+}
+.righteye{
+    border: 2px solid black;
+	border-radius:50%;
+	width:60px;
+	height:60px;
+	background-color:#ffffff;
+	position:absolute;
+	margin:-30 0 0 -30;
+	left:62%;
+	top: 21%;
+}
+.rightapple{
+	border-radius:50%;
+	width:17px;
+	height:17px;
+	background-color:#000000;
+	position:absolute;
+	margin:-30 0 0 -30;
+	left:0%;
+	top:-2%;
+}
+.nose {
+	border: 2px solid black;
+	border-radius:50%;
+	width:40px;
+	height:40px;
+	background-color:#FF0000;
+	position:absolute;
+	margin:-20 0 0 -20;
+	left: 43%;
+	top: 45%;
+}
+.mouth{
+	border: 2px solid black;
+	border-radius:25px;
+	border-collapse:top;
+	width:140px;
+	height:48px;
+	background-color:#ffffff;
+	position:absolute;
+	margin:-20 0 0 -20;
+	left: 27%;
+	top: 65%;
+}
+.Ltooth{
+	border: 2px solid black;
+	border-collapse:top;
+	border-radius:0px 0px 7px 7px;
+	width:22px;
+	height:22px;
+	background-color:#ffffff;
+	position:absolute;
+	margin:-10 0 0 -10;
+	left: 32%;
+	top: -2%;
+}
+.Rtooth{
+	border: 2px solid black;
+	border-collapse:top;
+	border-radius:0px 0px 7px 7px;
+	width:22px;
+	height:22px;
+	background-color:#ffffff;
+	position:absolute;
+	margin:-10 0 0 -10;
+	left: 49%;
+	top: -2%;
+}
