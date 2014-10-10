@@ -1,0 +1,179 @@
+/*CSS document*/
+.twall
+	{
+	margin:0;
+	padding:0;
+	font-family:calibri;
+	font-size:16px;
+	background-color:#00923E; 
+	width:1250px;
+	padding-top:20px;
+	height:420px;
+	}
+table
+	{ 
+	border: 2px solid black;
+	border-radius: 20px;
+	background: white;
+	width: 1170px;
+	height: 400px;
+	margin: auto;
+	text-align:center;
+	} 
+table thead
+	{
+	font-size:1.2em;
+	font-weight:bold;
+	border:2px #ffffff;
+	}
+
+th
+	{
+	border-top-left-radius: 17px;
+	border-top-right-radius:17px;
+	border:2px #ffffff;
+	background-color:#F8C711;
+	}
+.white-raw
+	{
+	background-color:#FFFFFF;
+	}
+.grey-raw
+	{
+	background-color:#C8C8C8;
+	}
+table td:nth-child(1)
+	{
+	text-align:right.br;
+	padding-right: 5px;
+	width: 200px;	
+	}
+
+table td:nth-child(3)
+	{
+	text-align:left.br;
+	padding-left: 5px;
+	width: 200px;
+	}
+
+table td:nth-child(5)
+	{
+	text-align:right;
+	padding-right: 5px;
+	width: 170px;
+	}
+
+table td:nth-child(6)
+	{
+	width: 130px;
+	}
+
+table td:nth-child(7){
+	width: 165px;
+	text-align:left;
+	padding-left: 5px;
+	}
+
+table td:nth-child(8){
+	width: 65px;
+	}
+
+table tr:last-child td:nth-child(1){
+	 border-bottom-left-radius: 17px; 
+	}
+
+table tr:last-child td:last-child{
+	border-bottom-right-radius: 17px;
+	}
+
+input[type=button].red
+	{
+    color:white;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-weight:bolder;
+	background:red;
+	}
+.red:disabled {}
+
+input[type=button].green:enabled
+	{
+    color:white;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    font-weight:bolder;
+	background:green;
+	}
+	
+.br, .es, .it, .ar, .de
+	{
+    padding-right: 100px;
+    position: relative;
+	}
+
+.br:after,.es:after, .it:after, .ar:after, .de:after 
+	{
+    width: 30px;
+    height: 20px;
+    background: url("../images/FlagOfBrazil.png");
+    position: absolute;
+    right: 5px;
+    content: "";
+	}
+
+.br:after{
+    background: url("images/FlagOfBrazil.png");
+	}
+
+.es:after{
+   background: url("images/FlagOfSpain.png");
+	}
+
+.it:after{
+    background: url("images/FlagOfItaly.png");
+	}
+.ar:after{
+    background: url("images/FlagOfArgentina.png");
+	}
+.de:after{
+    background: url("images/FlagOfGermany.png");
+	}
+
+/*right flags*/
+.me, .ne, .en, .bo, .po
+	{
+    padding-left: 100px;
+    position:relative;
+	}
+.me:before, .ne:before, .en:before, .bo:before, .po:before
+	{
+    width: 30px;
+    height: 20px;
+	background: url("../images/FlagOfBrazil.png");
+    position: absolute;
+    left: 5px;
+    content: "";
+	}
+
+.me:before{
+    background: url("images/FlagOfMexico.png");
+	}
+
+.ne:before
+	{
+    background: url("images/FlagOfNetherlands.jpg");
+	}
+
+.en:before{
+	background: url("images/FlagOfEngland.png");
+	}
+
+.bo:before{
+    background: url("images/FlagOfBosniaAndHerzegovina.png");
+	}
+
+.po:before{
+    background: url("images/FlagOfPortugal.jpg");
+	}
